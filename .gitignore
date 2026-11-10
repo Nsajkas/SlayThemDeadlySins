@@ -8,5 +8,5 @@ publish/
 Properties/
 packages/
 .editorconfig
-*.user
+SlayThemDeadlySinsCode/Credits.txt
 Directory.Build.props
