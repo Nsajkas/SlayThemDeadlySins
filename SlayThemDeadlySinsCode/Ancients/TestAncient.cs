@@ -12,7 +12,8 @@ public class TestAncient : CustomAncientModel
         MakePool(AncientOption<SharedSuffering>(),
             AncientOption<HatchlingEgg>(),
             AncientOption<RustyRoulette>(),
-            AncientOption<CyberneticImplant>())
+            AncientOption<CyberneticImplant>(),
+            AncientOption<SellUpgradesRelic>())
     );
 
     public override bool IsValidForAct(ActModel act)

@@ -10,5 +10,9 @@
   "SLAYTHEMDEADLYSINS-RUSTY_ROULETTE.title": "Rusty Roulette",
   "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.description": "The first time you take unblocked attack damage each combat, everyone takes that damage",
   "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.title": "Shared Suffering"
+  "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.title": "Shared Suffering",
+  "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.description": "Downgrade up to {MaxCards} cards.\n Gain {GoldGain} gold for each card downgraded",
+  "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.title": "SellUpgradesRelic",
+  "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.selectionScreenPrompt": "Select up to {MaxCards} cards to downgrade.\n Gain {GoldGain} gold for each card downgraded"
 }
