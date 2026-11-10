@@ -16,6 +16,6 @@ public class TestAncient : CustomAncientModel
 
     public override bool IsValidForAct(ActModel act)
     {
-        return act.Index == 2;
+        return act.Index != 1;
     }
 }
