@@ -1,4 +1,5 @@
 using BaseLib.Abstracts;
+using BaseLib.Extensions;
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Models;
 using SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
@@ -16,6 +17,6 @@ public class TestAncient : CustomAncientModel
 
     public override bool IsValidForAct(ActModel act)
     {
-        return act.Index != 1;
+        return act.ActNumber() != 1;
     }
 }
