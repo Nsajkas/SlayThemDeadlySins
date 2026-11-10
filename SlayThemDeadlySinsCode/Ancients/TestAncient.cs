@@ -13,7 +13,8 @@ public class TestAncient : CustomAncientModel
             AncientOption<HatchlingEgg>(),
             AncientOption<RustyRoulette>(),
             AncientOption<CyberneticImplant>(),
-            AncientOption<SellUpgradesRelic>())
+            AncientOption<SellUpgradesRelic>(),
+            AncientOption<IronTsunami>())
     );
 
     public override bool IsValidForAct(ActModel act)

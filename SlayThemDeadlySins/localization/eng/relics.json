@@ -14,5 +14,9 @@
   "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.description": "Downgrade up to {MaxCards} cards.\n Gain {GoldGain} gold for each card downgraded",
   "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.title": "SellUpgradesRelic",
-  "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.selectionScreenPrompt": "Select up to {MaxCards} cards to downgrade.\n Gain {GoldGain} gold for each card downgraded"
+  "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.selectionScreenPrompt": "Select up to {MaxCards} cards to downgrade.\n Gain {GoldGain} gold for each card downgraded",
+  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.description": "Upon pickup, [gold]Transform[/gold] up to [blue]{Count}[/blue] {Count:plural:card|cards} into [gold]IronWaveveveve[/gold].",
+  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.title": "Iron Tsunami",
+  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.selectionScreenPrompt": "Select [blue]{Count}[/blue] {Count:plural:card|cards} to transform into [gold]IronWaveveveve[/gold]."
 }
