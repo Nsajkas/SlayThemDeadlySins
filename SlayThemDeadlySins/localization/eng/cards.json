@@ -1,0 +1,6 @@
+{
+  "SLAYTHEMDEADLYSINS-IRON_WAVEVEVEVE.description": "Deal {Damage:diff()} damage and gain {Block:diff()} block {Repeat} times",
+  "SLAYTHEMDEADLYSINS-IRON_WAVEVEVEVE.title": "IronWaveveveve",
+  "SLAYTHEMDEADLYSINS-DIMINISHING_RETURNS.description": "Gain {GoldGain} gold.\nIncrease this card's cost by 1 permanently",
+  "SLAYTHEMDEADLYSINS-DIMINISHING_RETURNS.title": "Diminishing Returns"
+}

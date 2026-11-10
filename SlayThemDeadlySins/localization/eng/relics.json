@@ -1,0 +1,14 @@
+{
+  "SLAYTHEMDEADLYSINS-CYBERNETIC_IMPLANT.description": "At the start of combat, add a random [gold]Defect[/gold] card to your hand.\nIt is free to play this combat",
+  "SLAYTHEMDEADLYSINS-CYBERNETIC_IMPLANT.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-CYBERNETIC_IMPLANT.title": "Cybernetic Implant",
+  "SLAYTHEMDEADLYSINS-HATCHLING_EGG.description": "Whenever you add a card to your deck, upgrade it.\nGoes away when you enter a rest site",
+  "SLAYTHEMDEADLYSINS-HATCHLING_EGG.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-HATCHLING_EGG.title": "Hatchling Egg",
+  "SLAYTHEMDEADLYSINS-RUSTY_ROULETTE.description": "At the start of your turn, randomly draw {DrawPlus} extra cards or {DrawMinus} less card",
+  "SLAYTHEMDEADLYSINS-RUSTY_ROULETTE.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-RUSTY_ROULETTE.title": "Rusty Roulette",
+  "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.description": "The first time you take unblocked attack damage each combat, everyone takes that damage",
+  "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.title": "Shared Suffering"
+}
