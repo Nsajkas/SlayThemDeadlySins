@@ -9,5 +9,9 @@
   "SLAYTHEMDEADLYSINS-TEST_ANCIENT.talk.ANY.1-0r.ancient": "Test, Test, [b][gold]˚₊‧꒰ა TESTICULAR TORSION ໒꒱ ‧₊˚ [/gold][/b]",
   "SLAYTHEMDEADLYSINS-TEST_ANCIENT.talk.ANY.1-1r.char": "You really should delete that line before going live with the mod, yaknow?",
   "SLAYTHEMDEADLYSINS-TEST_ANCIENT.talk.ANY.1-1r.next": "Continue",
-  "SLAYTHEMDEADLYSINS-TEST_ANCIENT.title": "Test Ancient"
+  "SLAYTHEMDEADLYSINS-TEST_ANCIENT.title": "Test Ancient",
+  "SLAYTHEMDEADLYSINS-BOLLO.epithet": "The Betting Bastard",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.ANY.0-0r.ancient": "Reusable generic greeting.",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.firstVisitEver.0-0.ancient": "First time greeting.",
+  "SLAYTHEMDEADLYSINS-BOLLO.title": "Bollo"
 }

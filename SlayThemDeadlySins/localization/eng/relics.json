@@ -21,5 +21,8 @@
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.selectionScreenPrompt": "Select [blue]{Count}[/blue] {Count:plural:card|cards} to transform into [gold]IronWaveveveve[/gold].",
   "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.description": "Whenever you add a card to your [gold]Deck[/gold] it has a [blue]1[/blue] in [blue]{Chance}[/blue] chance to transform into [gold]Calculated Gamble[/gold] with [purple]Purge[/purple]",
   "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.flavor": "",
-  "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.title": "Miscalculated Gamble"
+  "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.title": "Miscalculated Gamble",
+  "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.description": "Whenever you enter a shop room, spend [blue]{Spend}[/blue] [gold]Gold[/gold] to obtain {Count:plural:a random item |{Count} random items} he sells",
+  "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.title": "Origami Umbrella"
 }
