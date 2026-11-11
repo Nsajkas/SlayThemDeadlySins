@@ -47,6 +47,7 @@
         <Compile Remove="materials/**"/>
         <Compile Remove="shaders/**"/>
         <Compile Remove="images/**"/>
+        <Compile Include="SlayThemDeadlySins\images\relics\MiscalculatedGamble.cs" />
         <EmbeddedResource Remove="SlayThemDeadlySins/**"/>
         <EmbeddedResource Remove="materials/**"/>
         <EmbeddedResource Remove="shaders/**"/>
@@ -62,9 +63,13 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="SlayThemDeadlySins\images\card_portraits\big\"/>
+        <Folder Include="SlayThemDeadlySinsCode\Utils\" />
         <Folder Include="SlayThemDeadlySins\images\powers\big\"/>
         <Folder Include="SlayThemDeadlySins\images\relics\big\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="SlayThemDeadlySinsCode\Credits.txt" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">

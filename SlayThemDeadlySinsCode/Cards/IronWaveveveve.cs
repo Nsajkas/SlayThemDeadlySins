@@ -25,6 +25,7 @@ public class IronWaveveveve() : SlayThemDeadlySinsCard(1, CardType.Attack, CardR
             await DamageCmd.Attack(this.DynamicVars.Damage.BaseValue).
                 FromCard(this).
                 Targeting(cardPlay.Target).
+                WithHitFx("vfx/vfx_flying_slash").
                 Execute(choiceContext);
             await CreatureCmd.GainBlock(this.Owner.Creature, this.DynamicVars.Block, cardPlay);
         }

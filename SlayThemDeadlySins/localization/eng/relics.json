@@ -18,5 +18,8 @@
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.description": "Upon pickup, [gold]Transform[/gold] up to [blue]{Count}[/blue] {Count:plural:card|cards} into [gold]IronWaveveveve[/gold].",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.title": "Iron Tsunami",
-  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.selectionScreenPrompt": "Select [blue]{Count}[/blue] {Count:plural:card|cards} to transform into [gold]IronWaveveveve[/gold]."
+  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.selectionScreenPrompt": "Select [blue]{Count}[/blue] {Count:plural:card|cards} to transform into [gold]IronWaveveveve[/gold].",
+  "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.description": "Whenever you add a card to your [gold]Deck[/gold] it has a [blue]1[/blue] in [blue]{Chance}[/blue] chance to transform into [gold]Calculated Gamble[/gold] with [purple]Purge[/purple]",
+  "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.flavor": "",
+  "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.title": "Miscalculated Gamble"
 }
