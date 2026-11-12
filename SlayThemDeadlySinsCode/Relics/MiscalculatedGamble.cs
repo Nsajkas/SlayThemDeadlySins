@@ -18,7 +18,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySins.images.relics;
 public class MiscalculatedGamble() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Rare;
+        RelicRarity.Ancient; //Bollo 
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Chance", 13M)];
     //TODO: find a way to add a HoverTip for Purge as well

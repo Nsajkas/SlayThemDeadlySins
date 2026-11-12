@@ -16,7 +16,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 public class SharedSuffering() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Ancient;
+        RelicRarity.Uncommon; //potentially move to one of the ancients at some point
 
     private bool _usedThisCombat;
     

@@ -17,7 +17,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 public class IronTsunami() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Ancient;
+        RelicRarity.Uncommon; //TODO: move to one of the ancients
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Count", 2M)];
 

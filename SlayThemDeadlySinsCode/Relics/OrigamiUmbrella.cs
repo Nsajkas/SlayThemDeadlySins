@@ -22,7 +22,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 public class OrigamiUmbrella() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Ancient;
+        RelicRarity.Ancient; //Bollo
 
     // protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("DrawPlus", 2), new IntVar("DrawMinus", 1)];
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Spend", 90), new IntVar("Count", 3)];

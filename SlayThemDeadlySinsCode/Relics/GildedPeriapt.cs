@@ -17,7 +17,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 public class GildedPeriapt() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Ancient;
+        RelicRarity.Ancient; //BOLLO
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Count", 2M), new IntVar("GoldGained", 85)];
 

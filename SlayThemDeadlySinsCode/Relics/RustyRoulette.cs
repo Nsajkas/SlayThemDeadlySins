@@ -11,8 +11,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 public class RustyRoulette() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Uncommon;
-
+        RelicRarity.Ancient; //Bollo
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("DrawPlus", 2), new IntVar("DrawMinus", 1)];
 
     public override decimal ModifyHandDraw(Player player, decimal count)

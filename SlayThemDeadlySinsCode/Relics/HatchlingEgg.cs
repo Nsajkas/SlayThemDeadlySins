@@ -67,9 +67,11 @@ public class HatchlingEgg() : SlayThemDeadlySinsRelic
 
     public override async Task AfterRoomEntered(AbstractRoom room)
     {
-        if (!(room is RestSiteRoom))
-            return;
 
-        RelicCmd.Remove((RelicModel)this);
+        if (room.RoomType == RoomType.RestSite || room.RoomType == RoomType.Elite)
+        {
+            RelicCmd.Remove((RelicModel)this);
+        }
+
     }
 }
