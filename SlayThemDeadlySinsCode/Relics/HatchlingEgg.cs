@@ -16,7 +16,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 public class HatchlingEgg() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Ancient;
+        RelicRarity.Rare;
 
     public override bool TryModifyCardRewardOptionsLate(Player player, List<CardCreationResult> cardRewardOptions, CardCreationOptions creationOptions)
     {

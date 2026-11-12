@@ -10,7 +10,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Cards;
 
 [Pool(typeof(ColorlessCardPool))]
-public class IronWaveveveve() : SlayThemDeadlySinsCard(1, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy)
+public class IronWaveveveve() : SlayThemDeadlySinsCard(1, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy)
 {
     protected override HashSet<CardTag> CanonicalTags => [CardTag.Strike];
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Repeat", 6), 

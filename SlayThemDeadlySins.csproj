@@ -47,7 +47,6 @@
         <Compile Remove="materials/**"/>
         <Compile Remove="shaders/**"/>
         <Compile Remove="images/**"/>
-        <Compile Include="SlayThemDeadlySins\images\relics\MiscalculatedGamble.cs" />
         <EmbeddedResource Remove="SlayThemDeadlySins/**"/>
         <EmbeddedResource Remove="materials/**"/>
         <EmbeddedResource Remove="shaders/**"/>
@@ -65,7 +64,6 @@
     <ItemGroup>
         <Folder Include="SlayThemDeadlySinsCode\Utils\" />
         <Folder Include="SlayThemDeadlySins\images\powers\big\"/>
-        <Folder Include="SlayThemDeadlySins\images\relics\big\"/>
     </ItemGroup>
 
     <ItemGroup>

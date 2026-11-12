@@ -15,14 +15,17 @@
   "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.title": "SellUpgradesRelic",
   "SLAYTHEMDEADLYSINS-SELL_UPGRADES_RELIC.selectionScreenPrompt": "Select up to {MaxCards} cards to downgrade.\n Gain {GoldGain} gold for each card downgraded",
-  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.description": "Upon pickup, [gold]Transform[/gold] up to [blue]{Count}[/blue] {Count:plural:card|cards} into [gold]IronWaveveveve[/gold].",
+  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.description": "Upon pickup, [gold]Transform[/gold] {Count:plural:a|up to} [blue]{Count}[/blue] {Count:plural:card|cards} into [gold]IronWaveveveve[/gold].",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.title": "Iron Tsunami",
-  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.selectionScreenPrompt": "Select [blue]{Count}[/blue] {Count:plural:card|cards} to transform into [gold]IronWaveveveve[/gold].",
+  "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.selectionScreenPrompt": "Select [blue]{Count:plural:a|{Count}}[/blue] {Count:plural:card|cards} to transform into [gold]IronWaveveveve[/gold].",
   "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.description": "Whenever you add a card to your [gold]Deck[/gold] it has a [blue]1[/blue] in [blue]{Chance}[/blue] chance to transform into [gold]Calculated Gamble[/gold] with [purple]Purge[/purple]",
-  "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.flavor": "",
+  "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.title": "Miscalculated Gamble",
   "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.description": "Whenever you enter a shop room, spend [blue]{Spend}[/blue] [gold]Gold[/gold] to obtain {Count:plural:a random item |{Count} random items} he sells",
   "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.title": "Origami Umbrella"
+  "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.title": "Origami Umbrella",
+  "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.description": "Whenever you obtain a [red]Curse[/red], gain [blue]{GoldGained}[/blue] [gold]Gold[/gold].\nImmediately obtain {Count:plural:a|{Count} [gold]Greed[/gold]}",
+  "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.title": "Gilded Periapt"
 }

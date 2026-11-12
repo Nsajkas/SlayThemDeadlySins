@@ -31,11 +31,10 @@ public class DiminishingReturns() : SlayThemDeadlySinsCard(0,
         }
         set
         {
+            //A bit of a hacky way to keep the cost saved
             AssertMutable();
             int diff = value - _currentCost;
             _currentCost = value;
-            string msg = "Setting energy current cost from " + EnergyCost + " to " + _currentCost + " diff is " + diff;
-            MainFile.Logger.LogMessage(LogLevel.Info, LogType.Actions, msg, 0);
             if (diff > 0)
             {
                 EnergyCost.UpgradeBy(diff);
@@ -43,19 +42,19 @@ public class DiminishingReturns() : SlayThemDeadlySinsCard(0,
             }
             else
             {
-                MainFile.Logger.LogMessage(LogLevel.Info, LogType.Actions, "Tried to increase cost to a lower cost", 0);
+                MainFile.Logger.LogMessage(LogLevel.Info, LogType.Actions, "DiminishingReturns: Tried to increase cost to a lower cost", 0);
             }
         }
     }
     
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("GoldGain", 35), new EnergyVar(CurrentCost), new IntVar("Increase", 1M)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("GoldGain", 25), new EnergyVar(CurrentCost), new IntVar("Increase", 1M)];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
     
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await PlayerCmd.GainGold((Decimal) this.DynamicVars["GoldGain"].IntValue, this.Owner);
+        await PlayerCmd.GainGold((Decimal) DynamicVars["GoldGain"].IntValue, Owner);
         int intValue = DynamicVars["Increase"].IntValue;
 
         BuffFromPlay(intValue);
@@ -69,6 +68,6 @@ public class DiminishingReturns() : SlayThemDeadlySinsCard(0,
 
     protected override void OnUpgrade()
     {
-        DynamicVars["GoldGain"].UpgradeValueBy(15);
+        DynamicVars["GoldGain"].UpgradeValueBy(20);
     }
 }
