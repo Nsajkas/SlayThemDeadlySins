@@ -27,5 +27,11 @@
   "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.title": "Origami Umbrella",
   "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.description": "Whenever you obtain a [red]Curse[/red], gain [blue]{GoldGained}[/blue] [gold]Gold[/gold].\nImmediately obtain {Count:plural:a|{Count} [gold]Greed[/gold]}",
   "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.title": "Gilded Periapt"
+  "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.title": "Gilded Periapt",
+  "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.description": "All Skills drawn in the first [gold]Hand[/gold] each combat gain [gold]Sly[/gold]",
+  "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.flavor": "",
+  "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.title": "Bottle Of Lotion",
+  "SLAYTHEMDEADLYSINS-BLADE_OIL.description": "All Attacks drawn in the first [gold]Hand[/gold] each combat gain [gold]Sly[/gold]",
+  "SLAYTHEMDEADLYSINS-BLADE_OIL.flavor": "",
+  "SLAYTHEMDEADLYSINS-BLADE_OIL.title": "Blade Oil"
 }
