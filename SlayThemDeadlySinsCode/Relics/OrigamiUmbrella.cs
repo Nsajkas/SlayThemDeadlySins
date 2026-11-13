@@ -13,6 +13,7 @@ using MegaCrit.Sts2.Core.Nodes.GodotExtensions;
 using MegaCrit.Sts2.Core.Nodes.Rooms;
 using MegaCrit.Sts2.Core.Nodes.Screens.Map;
 using MegaCrit.Sts2.Core.Rooms;
+using MegaCrit.Sts2.Core.Runs;
 using MegaCrit.Sts2.Core.TestSupport;
 using SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 
@@ -21,6 +22,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 [Pool(typeof(SharedRelicPool))]
 public class OrigamiUmbrella() : SlayThemDeadlySinsRelic
 {
+    //TODO: test on the beta branch. LordsParasol code has changed, and this might need to be remodelled after that.
     public override RelicRarity Rarity =>
         RelicRarity.Ancient; //Bollo
 
@@ -34,7 +36,9 @@ public class OrigamiUmbrella() : SlayThemDeadlySinsRelic
             return Task.CompletedTask;
         }
 
-        TaskHelper.RunSafely(PurchaseCount(merchantRoom.GetLocalInventory()));
+        MerchantInventory inventoryFor = RunManager.Instance.MerchantSynchronizer.GetInventoryFor(Owner);
+        
+        TaskHelper.RunSafely(PurchaseCount(inventoryFor));
         return Task.CompletedTask;
     }
 
@@ -159,7 +163,7 @@ public class OrigamiUmbrella() : SlayThemDeadlySinsRelic
                     }
                     else
                     {
-                        await charCard.OnTryPurchaseWrapper(inventory, true);
+                        await charCard.OnTryPurchaseUnsynchronized(inventory, true);
                         await Cmd.Wait(0.25f);
                     }
                 }
@@ -174,7 +178,7 @@ public class OrigamiUmbrella() : SlayThemDeadlySinsRelic
                     }
                     else
                     {
-                        await greyCard.OnTryPurchaseWrapper(inventory, true);
+                        await greyCard.OnTryPurchaseUnsynchronized(inventory, true);
                         await Cmd.Wait(0.25f);
                     }
                 }
@@ -190,7 +194,7 @@ public class OrigamiUmbrella() : SlayThemDeadlySinsRelic
                     {
                         NRun.Instance.GlobalUi.TopBar.Map.Enable();
                         NRun.Instance.GlobalUi.TopBar.Deck.Enable();
-                        await relic.OnTryPurchaseWrapper(inventory, ignoreCost: true);
+                        await relic.OnTryPurchaseUnsynchronized(inventory, ignoreCost: true);
                         NRun.Instance.GlobalUi.TopBar.Deck.Disable();
                         NRun.Instance.GlobalUi.TopBar.Map.Disable();
                         await Cmd.Wait(0.25f);
@@ -199,7 +203,7 @@ public class OrigamiUmbrella() : SlayThemDeadlySinsRelic
                 else if (i < potionTopIndex)
                 {
                     MerchantPotionEntry potion = inventory.PotionEntries[i - relicTopIndex];
-                    await potion.OnTryPurchaseWrapper(inventory, true);
+                    await potion.OnTryPurchaseUnsynchronized(inventory, true);
                     await Cmd.Wait(0.25f);
                 }
             }
@@ -222,7 +226,7 @@ public class OrigamiUmbrella() : SlayThemDeadlySinsRelic
                 if (inventory.CardRemovalEntry != null)
                 {
                     NMapScreen.Instance.SetTravelEnabled(false);
-                    await inventory.CardRemovalEntry.OnTryPurchaseWrapper(inventory, true, false);
+                    await inventory.CardRemovalEntry.OnTryPurchaseUnsynchronized(inventory, true);
                     NMapScreen.Instance.SetTravelEnabled(true);
                 }
             }
