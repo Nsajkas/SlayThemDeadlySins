@@ -36,5 +36,11 @@
   "SLAYTHEMDEADLYSINS-BLADE_OIL.title": "Blade Oil",
   "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.description": "Whenever you draw a [gold]Strike[/gold] [gold]Transform[/gold] it into a random card containing [gold]Strike[/gold].\nWhenever you draw a [gold]Defend[/gold], [gold]Transform[/gold] it into [red]PaperDefend[/red]",
   "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.flavor": "",
-  "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.title": "Strike! Strike! Strike!"
+  "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.title": "Strike! Strike! Strike!",
+  "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.description": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.flavor": "",
+  "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.title": "CrystalineAntimatter",
+  "SLAYTHEMDEADLYSINS-BACKVOLVER.description": "Every {AttackAmount:plural:time|[blue]{AttackAmount}[/blue] times} you are attacked, the enemy also attacks themself",
+  "SLAYTHEMDEADLYSINS-BACKVOLVER.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-BACKVOLVER.title": "Backvolver"
 }
