@@ -2,5 +2,7 @@
   "SLAYTHEMDEADLYSINS-IRON_WAVEVEVEVE.description": "Deal {Damage:diff()} damage and gain {Block:diff()} block {HitCount} times",
   "SLAYTHEMDEADLYSINS-IRON_WAVEVEVEVE.title": "IronWaveveveve",
   "SLAYTHEMDEADLYSINS-DIMINISHING_RETURNS.description": "Gain {GoldGain:diff()} gold.\nIncrease this card's cost by {Increase} permanently",
-  "SLAYTHEMDEADLYSINS-DIMINISHING_RETURNS.title": "Diminishing Returns"
+  "SLAYTHEMDEADLYSINS-DIMINISHING_RETURNS.title": "Diminishing Returns",
+  "SLAYTHEMDEADLYSINS-PAPER_DEFEND.description": "Gain {Block::diff()} [gold]Block[/gold]",
+  "SLAYTHEMDEADLYSINS-PAPER_DEFEND.title": "PaperDefend"
 }

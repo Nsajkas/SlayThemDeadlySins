@@ -15,7 +15,7 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Cards;
 [Pool(typeof(ColorlessCardPool))]
 public class IronWaveveveve() : SlayThemDeadlySinsCard(1, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy)
 {
-    protected override HashSet<CardTag> CanonicalTags => [CardTag.Strike];
+    public override bool GainsBlock => true;
     protected override IEnumerable<DynamicVar> CanonicalVars => [ new HitCountVar(6),  
                                                                 new DamageVar(1, ValueProp.Move), 
                                                                 new BlockVar(1, ValueProp.Move)];

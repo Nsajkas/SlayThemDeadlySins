@@ -29,9 +29,12 @@
   "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.title": "Gilded Periapt",
   "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.description": "All Skills drawn in the first [gold]Hand[/gold] each combat gain [gold]Sly[/gold]",
-  "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.flavor": "",
+  "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.title": "Bottle Of Lotion",
   "SLAYTHEMDEADLYSINS-BLADE_OIL.description": "All Attacks drawn in the first [gold]Hand[/gold] each combat gain [gold]Sly[/gold]",
-  "SLAYTHEMDEADLYSINS-BLADE_OIL.flavor": "",
-  "SLAYTHEMDEADLYSINS-BLADE_OIL.title": "Blade Oil"
+  "SLAYTHEMDEADLYSINS-BLADE_OIL.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-BLADE_OIL.title": "Blade Oil",
+  "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.description": "Whenever you draw a [gold]Strike[/gold] [gold]Transform[/gold] it into a random card containing [gold]Strike[/gold].\nWhenever you draw a [gold]Defend[/gold], [gold]Transform[/gold] it into [red]PaperDefend[/red]",
+  "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.flavor": "",
+  "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.title": "Strike! Strike! Strike!"
 }
