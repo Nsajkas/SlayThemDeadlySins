@@ -8,7 +8,9 @@ using MegaCrit.Sts2.Core.Factories;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
+using MegaCrit.Sts2.Core.Models.Characters;
 using MegaCrit.Sts2.Core.Models.RelicPools;
+using MegaCrit.Sts2.Core.Runs;
 using SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 
 namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
@@ -17,7 +19,12 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 public class CyberneticImplant() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity => RelicRarity.Uncommon;
-    
+
+    protected override bool IsAllowedInternal(IRunState runState)
+    {
+        return !(Owner.Character is Defect);
+    }
+
     public override async Task BeforeSideTurnStart(
         PlayerChoiceContext choiceContext,
         CombatSide side,

@@ -32,7 +32,6 @@ public class BladeOil() : SlayThemDeadlySinsRelic
         {
             return Task.CompletedTask;
         }
-        
         Flash();
         _affectedCards = PileType.Hand.GetPile(Owner).Cards.
             Where((CardModel c) => c != null && c.Type == CardType.Attack && !c.Keywords.Contains(CardKeyword.Sly)).ToList();

@@ -1,6 +1,23 @@
 {
   "SLAYTHEMDEADLYSINS-BOLLO.epithet": "The Betting Bastard",
-  "SLAYTHEMDEADLYSINS-BOLLO.talk.ANY.0-0r.ancient": "Reusable generic greeting.",
-  "SLAYTHEMDEADLYSINS-BOLLO.talk.firstVisitEver.0-0.ancient": "First time greeting.",
-  "SLAYTHEMDEADLYSINS-BOLLO.title": "Bollo"
+  "SLAYTHEMDEADLYSINS-BOLLO.title": "Bollo",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.firstVisitEver.0-0.ancient": "Never bet on avoiding my attention",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.ANY.0-0r.ancient": "Does chance favour you today, do you think?",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.ANY.1-0r.ancient": "Cuting across the fabric of fate again?",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.ANY.1-0r.next": "Continue",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.ANY.1-1r.ancient": "How...",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.ANY.1-1r.next": "...",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.ANY.1-2r.ancient": "...Endearing",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.0-0.ancient": "What foolish hand does Neow play by sending me a broken automaton?",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.1-0.ancient": "And how am I supposed to play a game of chance with one who is himself so...\n\n\n[thinky_dots]DETERMINISTIC?[/thinky_dots]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.1-0.next": "Respond",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.1-1.char": "[i][font_size=22]<long, confident beep>[/font_size][/i]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.1-1.next": "Continue",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.1-2.ancient": "[b][thinky_dots]HIGHLY UNLIKELY[/thinky_dots][/b]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.2-0.ancient": "The architect said [thinky_dots]WHAT[/thinky_dots] about foreseeing your arrival[thinky_dots]??[thinky_dots]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.2-0.next": "Answer",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.2-1.char": "[i][font_size=22]<excited whirring sounds>[/font_size][/i]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.2-1.next": "Continue",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.DEFECT.2-2.ancient": "[thinky_dots]THAT [b]CHANGES THINGS[/b]\nTHAT [b]GIVES US A CHANCE[/b][thinky_dots]",
+  
 }
