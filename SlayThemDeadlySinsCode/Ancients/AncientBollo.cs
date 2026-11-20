@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using SlayThemDeadlySins.SlayThemDeadlySins.images.relics;
 using SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
+using SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics.Bollo;
 
 namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Ancients;
 
@@ -52,12 +53,16 @@ public class Bollo : CustomAncientModel
 
         return 0;
     }
-
+    //first pool is reward-related things
+    //second pool is gold/shop-related
+    //third pool is misc
     protected override OptionPools MakeOptionPools => new(
-        MakePool( AncientOption<MiscalculatedGamble>()),//first pool is reward-related things
-        MakePool(AncientOption<OrigamiUmbrella>()),//second pool is gold/shop-related
-        MakePool(AncientOption<RustyRoulette>(), 
-            AncientOption<GildedPeriapt>(weight: GetWeightForGildedPeriapt(this.Owner)))); //third pool is misc 
+        MakePool( AncientOption<MiscalculatedGamble>()),
+        MakePool(AncientOption<OrigamiUmbrella>(),
+                                AncientOption<BlankCheque>(), 
+                                AncientOption<GildedPeriapt>(weight: GetWeightForGildedPeriapt(this.Owner))),
+        MakePool(AncientOption<RustyRoulette>(),
+            AncientOption<DealersChoice>()));  
 
     protected override IReadOnlyList<EventOption> GenerateInitialOptions()
     {

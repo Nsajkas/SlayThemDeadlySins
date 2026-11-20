@@ -19,7 +19,7 @@ public class GildedPeriapt() : SlayThemDeadlySinsRelic
     public override RelicRarity Rarity =>
         RelicRarity.Ancient; //BOLLO
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Count", 2M), new IntVar("GoldGained", 85)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Count", 2M), new GoldVar("GoldGained", 85)];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
         HoverTipFactory.FromCardWithCardHoverTips<Greed>();
