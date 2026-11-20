@@ -13,7 +13,7 @@
   "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.title": "Shared Suffering",
   "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.description": "[red]Downgrade[/red] {MaxCards:plural:|up to} [blue]{MaxCards}[/blue] {MaxCards:plural:card|cards}.\n Gain [blue]{GoldGain}[/blue] [gold]Gold[/gold] {MaxCards:plural:|for each card [red]Downgraded[/red]}",
   "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.title": "SellUpgradesRelic",
+  "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.title": "Golden Spoon",
   "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.selectionScreenPrompt": "Select {MaxCards:plural:|up to} [blue]{MaxCards}[/blue] {MaxCards:plural:card|cards} to [red]Downgrade[/red].\n Gain [blue]{GoldGain}[/blue] [gold]Gold[/gold] {MaxCards:plural:|for each card [red]Downgraded[/red]}",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.description": "Upon pickup, [gold]Transform[/gold] {Count:plural:a|up to} [blue]{Count}[/blue] {Count:plural:card|cards} into [gold]IronWaveveveve[/gold].",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.flavor": "[red]TBD flavor[/red]",
@@ -51,5 +51,8 @@
   "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.title": "Dealer's Choice",
   "SLAYTHEMDEADLYSINS-BLIND_BET.description": "#At the start of your turn, gain [EE]\nThe first *Hand you draw each combat gains *Ethereal",
   "SLAYTHEMDEADLYSINS-BLIND_BET.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-BLIND_BET.title": "Blind Bet"
+  "SLAYTHEMDEADLYSINS-BLIND_BET.title": "Blind Bet",
+  "SLAYTHEMDEADLYSINS-TIME_SHARE.description": "#Upon pickup, add [blue]{Count}[/blue] *Diminishing *Returns to your *Deck",
+  "SLAYTHEMDEADLYSINS-TIME_SHARE.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-TIME_SHARE.title": "TimeShare Property"
 }

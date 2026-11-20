@@ -61,6 +61,7 @@ public class Bollo : CustomAncientModel
                             AncientOption<DealersChoice>()),
         MakePool(AncientOption<OrigamiUmbrella>(),
             AncientOption<BlankCheque>(),
+            AncientOption<TimeShare>(),
             AncientOption<GildedPeriapt>(weight: GetWeightForGildedPeriapt(this.Owner))),
         MakePool(AncientOption<RustyRoulette>(),
             AncientOption<BlindBet>(),

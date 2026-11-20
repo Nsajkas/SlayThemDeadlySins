@@ -3,7 +3,7 @@
   "name": "Slay Them Deadly Sins",
   "author": "Dread Boatman",
   "description": "Slay them deadly sins content pack. Early alpha.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "min_game_version": "0.107.0",
   "has_pck": true,
   "has_dll": true,
