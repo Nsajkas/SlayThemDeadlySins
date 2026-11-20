@@ -11,7 +11,7 @@ using SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
 
 [Pool(typeof(SharedRelicPool))]
-public class SellUpgradesRelic() : SlayThemDeadlySinsRelic
+public class GoldenSpoon() : SlayThemDeadlySinsRelic
 {
     public override RelicRarity Rarity =>
         RelicRarity.Ancient;

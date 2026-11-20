@@ -57,12 +57,13 @@ public class Bollo : CustomAncientModel
     //second pool is gold/shop-related
     //third pool is misc
     protected override OptionPools MakeOptionPools => new(
-        MakePool( AncientOption<MiscalculatedGamble>()),
+        MakePool(AncientOption<MiscalculatedGamble>(),
+                            AncientOption<DealersChoice>()),
         MakePool(AncientOption<OrigamiUmbrella>(),
-                                AncientOption<BlankCheque>(), 
-                                AncientOption<GildedPeriapt>(weight: GetWeightForGildedPeriapt(this.Owner))),
+            AncientOption<BlankCheque>(),
+            AncientOption<GildedPeriapt>(weight: GetWeightForGildedPeriapt(this.Owner))),
         MakePool(AncientOption<RustyRoulette>(),
-            AncientOption<DealersChoice>()));  
+            AncientOption<GoldenSpoon>()));  
 
     protected override IReadOnlyList<EventOption> GenerateInitialOptions()
     {
