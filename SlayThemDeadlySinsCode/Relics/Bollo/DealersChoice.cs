@@ -23,7 +23,8 @@ public class DealersChoice() : SlayThemDeadlySinsRelic
         RelicRarity.Ancient;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Step", 77)];
-
+    public override bool HasUponPickupEffect => true;
+    
     //ensure that the ancient does not offer this relic if the player has no gold
     public override async Task AfterObtained()
     {

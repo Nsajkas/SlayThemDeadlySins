@@ -18,6 +18,8 @@ public class TimeShare() : SlayThemDeadlySinsRelic
         RelicRarity.Ancient;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Count", 2M)];
+    
+    public override bool HasUponPickupEffect => true;
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
         HoverTipFactory.FromCardWithCardHoverTips<DiminishingReturns>();

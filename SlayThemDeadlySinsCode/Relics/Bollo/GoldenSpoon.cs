@@ -17,7 +17,9 @@ public class GoldenSpoon() : SlayThemDeadlySinsRelic
         RelicRarity.Ancient;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar("MaxCards", 5), new IntVar("GoldGain", 75)];
-
+    
+    public override bool HasUponPickupEffect => true;
+    
     public override async Task AfterObtained()
     {
         List<CardModel> availableUpgradedCards = this.Owner.Deck.Cards.Where<CardModel>((Func<CardModel, bool>) (c => c.IsUpgraded)).ToList<CardModel>();
