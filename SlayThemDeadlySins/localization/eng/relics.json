@@ -35,12 +35,18 @@
   "SLAYTHEMDEADLYSINS-BLADE_OIL.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-BLADE_OIL.title": "Blade Oil",
   "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.description": "Whenever you draw a [gold]Strike[/gold] [gold]Transform[/gold] it into a random card containing [gold]Strike[/gold].\nWhenever you draw a [gold]Defend[/gold], [gold]Transform[/gold] it into [red]PaperDefend[/red]",
-  "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.flavor": "",
+  "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.title": "Strike! Strike! Strike!",
-  "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.description": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.flavor": "",
+  "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.description": "",
+  "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.title": "CrystalineAntimatter",
   "SLAYTHEMDEADLYSINS-BACKVOLVER.description": "Every {AttackAmount:plural:time|[blue]{AttackAmount}[/blue] times} you are attacked, the enemy also attacks themself",
   "SLAYTHEMDEADLYSINS-BACKVOLVER.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-BACKVOLVER.title": "Backvolver"
+  "SLAYTHEMDEADLYSINS-BACKVOLVER.title": "Backvolver",
+  "SLAYTHEMDEADLYSINS-BLANK_CHEQUE.description": "At the start of your first turn, gain [blue]{StartingGold}[/blue] [gold]Gold[/gold].\nAt the end of all other turns, lose [blue]{LoseGold}[/blue] [gold]Gold[/gold]",
+  "SLAYTHEMDEADLYSINS-BLANK_CHEQUE.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-BLANK_CHEQUE.title": "Blank Cheque",
+  "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.description": "Spend all your [gold]Gold[/gold] to gain a [gold]Potion[/gold], a [gold]Card Reward[/gold] and a [gold]Relic[/gold].\nTheir [pink]Rarity[/pink] depends on the [gold]Gold[/gold] spent.",
+  "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.title": "Dealer's Choice"
 }
