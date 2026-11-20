@@ -40,5 +40,22 @@
   "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-0r.ancient": "Time and time again, you outplay us one and all by refusing to cheat",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-0r.next": "Say nothing",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-1r.char": "...",
-  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-2r.ancient": "Were I not as impressed, I would hate you for it, my little ace in the hole"
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-2r.ancient": "Were I not as impressed, I would hate you for it, my little ace in the hole",
+
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.0-0r.ancient": "What is the purpose of lugging around a giant hand if you have no intent of dealing me any cards?",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.0-0r.next": "Retort",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.0-1r.char": "[jitter][b]MY FAMILIAR[/b] is not a toy to be used for frivolous games of chance!![/jitter]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.0-1r.next": "Continue",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.0-2r.ancient": "[jitter]That thing is as much your toy as you are mine[/jitter].\n As for [jitter]CHANCE[/jitter], it is the least frivolous thing in existence.",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-0r.ancient": "Consider this, little mage. She has the power to bring you back, she does. And yet, she always brings you back... [jitter]like that[/jitter]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-0r.next": "Glare menacingly",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-1r.ancient": "To me, that seems like a weird rule. And weird rules make for the best cheating opportunities",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-1r.next": "Snap back",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-2r.char": "How can you not see this isn't a game to me?\nNever was, never will be.",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-2r.next": "Continue",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-3r.ancient": "[jitter][b]EVERYTHING IS A GAME[/b][jitter]\nThe sooner you accept that, the sooner you can start [jitter]winning[/jitter]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.2-0r.ancient": "Were the universe as unknowable as you believe, you may not have had an offer for me now. Yet we both know I am your last ace in the hole.\n[b]Let's hear it.[/b]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.2-0r.next": "Glare at him",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.2-1r.ancient": "Ah, she decides to start cheating at last. Would that you were as willing to play.\n [sine]Small victories.[/sine] Have at it"
+  
 }
