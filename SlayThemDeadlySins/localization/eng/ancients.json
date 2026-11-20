@@ -32,5 +32,13 @@
   "SLAYTHEMDEADLYSINS-BOLLO.talk.IRONCLAD.2-1r.next": "Keep listening",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.IRONCLAD.2-2r.ancient": "...Vakuu? [red]THE COWARD WOULD CONTAIN YOU![red]",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.IRONCLAD.2-2r.next": "Recoil at the name",
-  "SLAYTHEMDEADLYSINS-BOLLO.talk.IRONCLAD.2-3r.ancient": "[jitter][b]BUT I? I WOULD UNLEASH YOU UPON THE WORLD SO A NEW ONE MAY HAVE A CHANCE TO ARISE FROM THE ASHES[/b][/jitter]"
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.IRONCLAD.2-3r.ancient": "[jitter][b]BUT I? I WOULD UNLEASH YOU UPON THE WORLD SO A NEW ONE MAY HAVE A CHANCE TO ARISE FROM THE ASHES[/b][/jitter]",
+
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.0-0r.ancient": "A hunt is but a game with [red]lives at stake[/red], little gambler.",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.0-0r.next": "Snort in contempt",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.1-0r.ancient": "Your sisters tried to cheat, I know. Were they any good at it, one of them would be my little knife now, not you",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-0r.ancient": "Time and time again, you outplay us one and all by refusing to cheat",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-0r.next": "Say nothing",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-1r.char": "...",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.SILENT.2-2r.ancient": "Were I not as impressed, I would hate you for it, my little ace in the hole"
 }
