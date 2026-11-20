@@ -48,5 +48,8 @@
   "SLAYTHEMDEADLYSINS-BLANK_CHEQUE.title": "Blank Cheque",
   "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.description": "Spend all your [gold]Gold[/gold] to gain a [gold]Potion[/gold], a [gold]Card Reward[/gold] and a [gold]Relic[/gold].\nTheir [pink]Rarity[/pink] depends on the [gold]Gold[/gold] spent.",
   "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.title": "Dealer's Choice"
+  "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.title": "Dealer's Choice",
+  "SLAYTHEMDEADLYSINS-BLIND_BET.description": "#At the start of your turn, gain [EE]\nThe first *Hand you draw each combat gains *Ethereal",
+  "SLAYTHEMDEADLYSINS-BLIND_BET.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-BLIND_BET.title": "Blind Bet"
 }
