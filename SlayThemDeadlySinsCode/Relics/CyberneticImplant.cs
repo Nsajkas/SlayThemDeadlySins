@@ -1,6 +1,7 @@
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Context;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Relics;
@@ -22,7 +23,7 @@ public class CyberneticImplant() : SlayThemDeadlySinsRelic
 
     protected override bool IsAllowedInternal(IRunState runState)
     {
-        return !(Owner.Character is Defect);
+        return !(runState.GetPlayer(LocalContext.NetId.Value).Character is Defect);
     }
 
     public override async Task BeforeSideTurnStart(
