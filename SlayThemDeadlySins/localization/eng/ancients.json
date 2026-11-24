@@ -49,13 +49,28 @@
   "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.0-2r.ancient": "[jitter]That thing is as much your toy as you are mine[/jitter].\n As for [jitter]CHANCE[/jitter], it is the least frivolous thing in existence.",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-0r.ancient": "Consider this, little mage. She has the power to bring you back, she does. And yet, she always brings you back... [jitter]like that[/jitter]",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-0r.next": "Glare menacingly",
-  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-1r.ancient": "To me, that seems like a weird rule. And weird rules make for the best cheating opportunities",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-1r.ancient": "To me, that seems like a weird rule. And weird rules make for the [b]best[/b] cheating opportunities",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-1r.next": "Snap back",
-  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-2r.char": "How can you not see this isn't a game to me?\nNever was, never will be.",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-2r.char": "How can you not see this is not a game to me?\nNever was, never will be.",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-2r.next": "Continue",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.1-3r.ancient": "[jitter][b]EVERYTHING IS A GAME[/b][jitter]\nThe sooner you accept that, the sooner you can start [jitter]winning[/jitter]",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.2-0r.ancient": "Were the universe as unknowable as you believe, you may not have had an offer for me now. Yet we both know I am your last ace in the hole.\n[b]Let's hear it.[/b]",
   "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.2-0r.next": "Glare at him",
-  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.2-1r.ancient": "Ah, she decides to start cheating at last. Would that you were as willing to play.\n [sine]Small victories.[/sine] Have at it"
-  
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.NECROBINDER.2-1r.ancient": "Ah, she decides to start cheating at last. Would that you were as willing to play.\n [sine]Small victories.[/sine] Have at it",
+
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.0-0r.char": "I seek an audience with one [sine]Bollo[/sine] - a cosmic being that is supposedly enamoured with [b]Chance[/b] and [b]Fate[/b] and the [jitter][b]VIRTURE THAT IS GREED[/b][/jitter]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.0-0r.next": "Continue",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.0-1r.ancient": "It is I that you gaze upon, [jitter]little princeling.[/jitter]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.0-1r.next": "Condemn",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.0-2r.char": "How odd.\nI would not have expected you to be so... [b]pedestrian.[/b]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-0r.ancient": "Tell me of something that you would be willing to trade for a chance at The Architect",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-0r.next": "Respond",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-1r.char": "[i][font_size=22]The Regent spends exactly one hour, seventeen minutes, and twelve seconds listing his various lands and titles[/font_size][/i]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-1r.next": "...",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-2r.char": "[i][font_size=20]The Regent spends twenty two more minutes listing monetary funds in several intergalactic currencies he has access to[/font_size][/i]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-2r.next": "...",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-3r.char": "[i][font_size=18]Finally, The Regent spends fourty five minutes reciting his most valuable material posessions[/font_size][/i]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-3r.next": "Finish presenting",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.1-4r.ancient": "I am certain that must all sound so grand to you.\nBut now, please try and offer me something [jitter][b][/b]INTERESTING[/jitter]",
+  "SLAYTHEMDEADLYSINS-BOLLO.talk.REGENT.2-0r.ancient": "Our best bet? Not subterfuge, not the old magics - but your own delusions of grandeur trumping even The Architect's."
 }
