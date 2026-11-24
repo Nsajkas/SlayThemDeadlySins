@@ -1,6 +1,7 @@
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
@@ -22,7 +23,14 @@ public class GildedPeriapt() : SlayThemDeadlySinsRelic
     protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Count", 2M), new GoldVar("GoldGained", 85)];
     
     public override bool HasUponPickupEffect => true;
-    
+
+    protected override bool RelicAllowedToSpawn(Player owner)
+    {
+        IReadOnlyList<CardModel> cards = owner.Deck.Cards;
+
+        return (cards.Count((CardModel c) => c is Greed) > 0);
+    }
+
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
         HoverTipFactory.FromCardWithCardHoverTips<Greed>();
 

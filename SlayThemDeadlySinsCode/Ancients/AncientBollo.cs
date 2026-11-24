@@ -15,67 +15,16 @@ namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Ancients;
 
 public class Bollo : CustomAncientModel
 {
-    private EventOption GildedPeriaptOption => RelicOption<GildedPeriapt>();
-    private const int _BIG_WEIGHT = 5;
-    
-    private static AncientOption AncientOptionConditionally(AncientOption option, bool condition)
-    {
-        
-        
-        return condition ? null : option;
-    }
-
-    private int GetWeightForGildedPeriapt(Player player)
-    {
-        if(player == null)
-        {
-            MainFile.Logger.LogMessage(LogLevel.Error, LogType.Actions, "Bollo: Owner missing from ancient", 0);
-            return 0;
-        }
-        else if (player.Deck == null)
-        {
-            MainFile.Logger.LogMessage(LogLevel.Error, LogType.Actions, "Bollo: Deck Missing from owner", 0);
-            return 0;
-        }
-        else if (player.Deck.Cards == null)
-        {
-            MainFile.Logger.LogMessage(LogLevel.Error, LogType.Actions, "Bollo: Deck Cards Missing from owner", 0);
-            return 0;
-        }
-
-        IReadOnlyList<CardModel> cards = player.Deck.Cards;
-        
-        if (cards.Count((CardModel c) => c is Greed) > 0)
-        {
-            MainFile.Logger.LogMessage(LogLevel.Info, LogType.Actions, "GildedPeriapt: Greed count in player's deck is positive" , 0);
-            return _BIG_WEIGHT;
-        }
-
-        return 0;
-    }
-    //first pool is reward-related things
-    //second pool is gold/shop-related
-    //third pool is misc
     protected override OptionPools MakeOptionPools => new(
         MakePool(AncientOption<MiscalculatedGamble>(),
                             AncientOption<DealersChoice>()),
         MakePool(AncientOption<OrigamiUmbrella>(),
             AncientOption<BlankCheque>(),
             AncientOption<TimeShare>(),
-            AncientOption<GildedPeriapt>(weight: GetWeightForGildedPeriapt(this.Owner))),
+            AncientOption<GildedPeriapt>()),
         MakePool(AncientOption<RustyRoulette>(),
             AncientOption<BlindBet>(),
             AncientOption<GoldenSpoon>()));  
-
-    protected override IReadOnlyList<EventOption> GenerateInitialOptions()
-    {
-        var OptionsList = base.GenerateInitialOptions();
-
-        // OptionPools.AllOptions.AddItem(GildedPeriaptOption) - maybe like this
-        
-        return OptionsList;
-        
-    }
 
     public override bool IsValidForAct(ActModel act)
     {

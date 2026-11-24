@@ -1,5 +1,6 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Extensions;
+using MegaCrit.Sts2.Core.Entities.Players;
 using SlayThemDeadlySins.SlayThemDeadlySinsCode.Extensions;
 
 namespace SlayThemDeadlySins.SlayThemDeadlySinsCode.Relics;
@@ -19,4 +20,15 @@ public abstract class SlayThemDeadlySinsRelic : CustomRelicModel
         $"{Id.Entry.RemovePrefix().ToLowerInvariant()}_outline.png".RelicImagePath();
 
     protected override string BigIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigRelicImagePath();
+
+    //override for custom relic appearance criteria
+    protected virtual bool RelicAllowedToSpawn(Player owner)
+    {
+        return true;
+    }
+
+    protected SlayThemDeadlySinsRelic()
+    {
+        this.AddCustomAncientSpawnCondition(model => ((SlayThemDeadlySinsRelic)ToMutable()).RelicAllowedToSpawn((model.Owner)));
+    }
 }
