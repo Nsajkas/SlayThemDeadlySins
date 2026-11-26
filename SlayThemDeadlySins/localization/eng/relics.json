@@ -2,57 +2,78 @@
   "SLAYTHEMDEADLYSINS-CYBERNETIC_IMPLANT.description": "At the start of combat, add a random [gold]Defect[/gold] card to your hand.\nIt is free to play this combat",
   "SLAYTHEMDEADLYSINS-CYBERNETIC_IMPLANT.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-CYBERNETIC_IMPLANT.title": "Cybernetic Eye",
+  
   "SLAYTHEMDEADLYSINS-HATCHLING_EGG.description": "Whenever you add a card to your [gold]Deck[/gold], upgrade it.\nGoes away when you enter a [gold]Rest Site[/gold] or an [gold]Elite[/gold] combat",
   "SLAYTHEMDEADLYSINS-HATCHLING_EGG.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-HATCHLING_EGG.title": "Hatchling Egg",
+  
   "SLAYTHEMDEADLYSINS-RUSTY_ROULETTE.description": "At the start of your turn, randomly draw [blue]{DrawPlus}[/blue] additional card{DrawPlus:plural:|s} or [red]{DrawMinus}[/red] less card{DrawPlus:plural:|s}",
   "SLAYTHEMDEADLYSINS-RUSTY_ROULETTE.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-RUSTY_ROULETTE.title": "Rusty Roulette",
+  
   "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.description": "The first time you take unblocked attack damage each combat, everyone takes that damage",
   "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-SHARED_SUFFERING.title": "Shared Suffering",
+  
   "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.description": "[red]Downgrade[/red] {MaxCards:plural:|up to} [blue]{MaxCards}[/blue] {MaxCards:plural:card|cards}.\n Gain [blue]{GoldGain}[/blue] [gold]Gold[/gold] {MaxCards:plural:|for each card [red]Downgraded[/red]}",
   "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.title": "Golden Spoon",
   "SLAYTHEMDEADLYSINS-GOLDEN_SPOON.selectionScreenPrompt": "Select {MaxCards:plural:|up to} [blue]{MaxCards}[/blue] {MaxCards:plural:card|cards} to [red]Downgrade[/red].\n Gain [blue]{GoldGain}[/blue] [gold]Gold[/gold] {MaxCards:plural:|for each card [red]Downgraded[/red]}",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.description": "Upon pickup, [gold]Transform[/gold] {Count:plural:a|up to} [blue]{Count}[/blue] {Count:plural:card|cards} into [gold]IronWaveveveve[/gold].",
+  
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.title": "Iron Tsunami",
   "SLAYTHEMDEADLYSINS-IRON_TSUNAMI.selectionScreenPrompt": "Select [blue]{Count:plural:a|{Count}}[/blue] {Count:plural:card|cards} to transform into [gold]IronWaveveveve[/gold].",
+  
   "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.description": "Whenever you add a card to your [gold]Deck[/gold] it has a [blue]1[/blue] in [blue]{Chance}[/blue] chance to [gold]Transform[/gold] into [gold]Calculated Gamble[/gold] with [purple]Purge[/purple]",
   "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-MISCALCULATED_GAMBLE.title": "Miscalculated Gamble",
+  
   "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.description": "Whenever you encounter the [gold]Merchant[/gold], spend [blue]{Spend}[/blue] [gold]Gold[/gold] to obtain {Count:plural:a random item |{Count} random items} he sells",
   "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-ORIGAMI_UMBRELLA.title": "Origami Umbrella",
+  
   "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.description": "Whenever you obtain a [red]Curse[/red], gain [blue]{GoldGained}[/blue] [gold]Gold[/gold].\nImmediately obtain {Count:plural:a|{Count} [gold]Greed[/gold]}",
   "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-GILDED_PERIAPT.title": "Gilded Periapt",
+  
   "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.description": "All Skills drawn in the first [gold]Hand[/gold] each combat gain [gold]Sly[/gold]",
   "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-BOTTLE_OF_LOTION.title": "Bottle Of Lotion",
+  
   "SLAYTHEMDEADLYSINS-BLADE_OIL.description": "All Attacks drawn in the first [gold]Hand[/gold] each combat gain [gold]Sly[/gold]",
   "SLAYTHEMDEADLYSINS-BLADE_OIL.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-BLADE_OIL.title": "Blade Oil",
+  
   "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.description": "Whenever you draw a [gold]Strike[/gold] [gold]Transform[/gold] it into a random card containing [gold]Strike[/gold].\nWhenever you draw a [gold]Defend[/gold], [gold]Transform[/gold] it into [red]PaperDefend[/red]",
   "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-STRIKE_STRIKE_STRIKE.title": "Strike! Strike! Strike!",
+  
   "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.description": "",
   "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-CRYSTALINE_ANTIMATTER.title": "CrystalineAntimatter",
+  
   "SLAYTHEMDEADLYSINS-BACKVOLVER.description": "Every {AttackAmount:plural:time|[blue]{AttackAmount}[/blue] times} you are attacked, the enemy also attacks themself",
   "SLAYTHEMDEADLYSINS-BACKVOLVER.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-BACKVOLVER.title": "Backvolver",
+  
   "SLAYTHEMDEADLYSINS-BLANK_CHEQUE.description": "At the start of your first turn, gain [blue]{StartingGold}[/blue] [gold]Gold[/gold].\nAt the end of all other turns, lose [blue]{LoseGold}[/blue] [gold]Gold[/gold]",
   "SLAYTHEMDEADLYSINS-BLANK_CHEQUE.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-BLANK_CHEQUE.title": "Blank Cheque",
+  
   "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.description": "Spend all your [gold]Gold[/gold] to gain a [gold]Potion[/gold], a [gold]Card Reward[/gold] and a [gold]Relic[/gold].\nTheir [pink]Rarity[/pink] depends on the [gold]Gold[/gold] spent.",
   "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-DEALERS_CHOICE.title": "Dealer's Choice",
+  
   "SLAYTHEMDEADLYSINS-BLIND_BET.description": "#At the start of your turn, gain [EE]\nThe first *Hand you draw each combat gains *Ethereal",
   "SLAYTHEMDEADLYSINS-BLIND_BET.flavor": "[red]TBD flavor[/red]",
   "SLAYTHEMDEADLYSINS-BLIND_BET.title": "Blind Bet",
+  
   "SLAYTHEMDEADLYSINS-TIME_SHARE.description": "#Upon pickup, add [blue]{Count}[/blue] *Diminishing *Returns to your *Deck",
   "SLAYTHEMDEADLYSINS-TIME_SHARE.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-TIME_SHARE.title": "TimeShare Property"
+  "SLAYTHEMDEADLYSINS-TIME_SHARE.title": "TimeShare Property",
+
+  "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.description": "Whenever you play a [gold]Claw[/gold], all [gold]Claws[/gold] in your [gold]Draw Pile[/gold] gain [gold]Replay[/gold] 1",
+  "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.flavor": "",
+  "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.title": "Storm Of Claws"
 }
