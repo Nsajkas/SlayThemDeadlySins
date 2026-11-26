@@ -75,5 +75,9 @@
 
   "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.description": "Whenever you play a [gold]Claw[/gold], all [gold]Claws[/gold] in your [gold]Draw Pile[/gold] gain [gold]Replay[/gold] 1",
   "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.flavor": "",
-  "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.title": "Storm Of Claws"
+  "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.title": "Storm Of Claws",
+
+  "SLAYTHEMDEADLYSINS-CAT_EARS.description": "#Whenever you take unblocked attack damage, add a #Claw to your #Hand",
+  "SLAYTHEMDEADLYSINS-CAT_EARS.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-CAT_EARS.title": "Ckat Ears"
 }
