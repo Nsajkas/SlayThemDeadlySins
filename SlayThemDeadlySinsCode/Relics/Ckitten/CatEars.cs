@@ -31,6 +31,7 @@ public class CatEars() : SlayThemDeadlySinsRelic
         if (CombatManager.Instance.IsInProgress && target == Owner.Creature && result.UnblockedDamage > 0 &&
             dealer != null && dealer != target)
         {
+            Flash();
             var claw = Owner.Creature.CombatState.CreateCard(ModelDb.Card<Claw>(), Owner);
             CardPileCmd.AddGeneratedCardToCombat(claw, PileType.Hand, Owner);
         }

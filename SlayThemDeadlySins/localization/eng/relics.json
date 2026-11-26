@@ -77,7 +77,15 @@
   "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.flavor": "",
   "SLAYTHEMDEADLYSINS-STORM_OF_CLAWS.title": "Storm Of Claws",
 
-  "SLAYTHEMDEADLYSINS-CAT_EARS.description": "#Whenever you take unblocked attack damage, add a #Claw to your #Hand",
+  "SLAYTHEMDEADLYSINS-CAT_EARS.description": "#Whenever you take unblocked attack damage, add a *Claw to your *Hand",
   "SLAYTHEMDEADLYSINS-CAT_EARS.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-CAT_EARS.title": "Ckat Ears"
+  "SLAYTHEMDEADLYSINS-CAT_EARS.title": "Ckat Ears",
+
+  "SLAYTHEMDEADLYSINS-BERSERKERS_AXE.description": "#*Attacks cost [E] less.\n*Everything *else costs [E] more",
+  "SLAYTHEMDEADLYSINS-BERSERKERS_AXE.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-BERSERKERS_AXE.title": "Berserker's Axe",
+
+  "SLAYTHEMDEADLYSINS-FISHBONE.description": "#At the start of Combat, add a *Hairball to your *Hand",
+  "SLAYTHEMDEADLYSINS-FISHBONE.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-FISHBONE.title": "Fishbone"
 }
