@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://b78yoaketieqe"]
+
+[ext_resource type="Texture2D" uid="uid://bghp06caq8ocl" path="res://SlayThemDeadlySins/images/packed/backgrounds/CkittyFullBG.png" id="1_8tty2"]
+
+[node name="testancient" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -355.0
+offset_top = -8.0
+offset_right = 2205.0
+offset_bottom = 1192.0
+texture = ExtResource("1_8tty2")

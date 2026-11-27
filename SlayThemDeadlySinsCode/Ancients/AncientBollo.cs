@@ -1,6 +1,7 @@
 using BaseLib.Abstracts;
 using BaseLib.Extensions;
 using BaseLib.Utils;
+using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Events;
@@ -24,7 +25,9 @@ public class Bollo : CustomAncientModel
             AncientOption<GildedPeriapt>()),
         MakePool(AncientOption<RustyRoulette>(),
             AncientOption<BlindBet>(),
-            AncientOption<GoldenSpoon>()));  
+            AncientOption<GoldenSpoon>()));
+
+    public override Color DialogueColor => new("800020");
 
     public override bool IsValidForAct(ActModel act)
     {
