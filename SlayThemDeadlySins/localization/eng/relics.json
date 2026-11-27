@@ -87,5 +87,11 @@
 
   "SLAYTHEMDEADLYSINS-FISHBONE.description": "#At the start of Combat, add a *Hairball to your *Hand",
   "SLAYTHEMDEADLYSINS-FISHBONE.flavor": "[red]TBD flavor[/red]",
-  "SLAYTHEMDEADLYSINS-FISHBONE.title": "Fishbone"
+  "SLAYTHEMDEADLYSINS-FISHBONE.title": "Fishbone",
+
+  "SLAYTHEMDEADLYSINS-FROZEN_DAGGER.description": "#Gain [blue]{Relics}[/blue] *Icy *Relic *Rewards. Whenever you accumulate [blue]{Threshold}[/blue] *Damage in Combat, your leftmost *Icy *Relic is removed.",
+  "SLAYTHEMDEADLYSINS-FROZEN_DAGGER.flavor": "[red]TBD flavor[/red]",
+  "SLAYTHEMDEADLYSINS-FROZEN_DAGGER.title": "Icy Dagger",
+  "SLAYTHEMDEADLYSINS-FROZEN_DAGGER.icyRelicPrefix": "Icy"
+  
 }
